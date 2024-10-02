@@ -9,7 +9,10 @@ body{
     background-color: #FF3562;
     overflow: hidden;
 }
-
+@media (max-width:380) .container{
+    height: 200px;
+    width: 180px;
+}
 .container{
     max-width: 440px;
     padding: 0 20px;
